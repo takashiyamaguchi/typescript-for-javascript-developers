@@ -10,7 +10,7 @@ const example1 = {
   age: 43
 }
 
-type Profile {
+type Profile = {
   name: string;
   age: number;
 }
