@@ -25,8 +25,5 @@ namespace English {
 
 const me = new Japanese.Tokyo.Person('はむさん');
 const meOsaka = new Japanese.Osaka.Person('はむやん');
-console.log(me.name);
-console.log(meOsaka.name);
 
 const michael = new English.Person('Michael', 'Joseph', 'Jackson');
-console.log(michael);
