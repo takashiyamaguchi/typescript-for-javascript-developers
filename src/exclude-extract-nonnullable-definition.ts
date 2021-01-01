@@ -10,6 +10,7 @@ type MyFunctionType = MyExclude;
 
 // Extract
 type FunctionTypeByExtract = Extract<SomeTypes, DebugType>;
+type MyExtract<T, U> = T extends U ? T : never;
 
 // NonNullable
 type NullableTypes = string | number | null | undefined;
